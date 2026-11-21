@@ -1,4 +1,4 @@
--- What one USASpending publish changed, by source and fiscal year (not used by a model or dashboard).
+-- Ad hoc analysis (not used by any model or dashboard) that shows, by source and fiscal year, how the USASpending publish set in refresh_publish changed the data compared with the publish before it.
 -- Rerun after each monthly load and record the results in docs/refresh_log.md.
 -- Compares the live data as of the previous publish (files dated before refresh_publish) with the live data
 -- as of refresh_publish (files dated on or before it), with the same dedupe and delete rules as staging.
